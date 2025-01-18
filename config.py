@@ -63,8 +63,8 @@ class Config(object):
     
     # Url Shortner Information 
     TECH_VJ = bool(environ.get('TECH_VJ', True)) # Set False If you want shortlink off else True
-    TECH_VJ_URL = environ.get('TECH_VJ_URL', 'modijiurl.com') # your shortlink url domain or url without https://
-    TECH_VJ_API = environ.get('TECH_VJ_API', '7093f846c0cb92afe2a6b65b7581f835f7a39b21') # your url shortner api
+    TECH_VJ_URL = environ.get('TECH_VJ_URL', 'shareus.io') # your shortlink url domain or url without https://
+    TECH_VJ_API = environ.get('TECH_VJ_API', 'g1O4hMOrEeTLdbGubVlZtq5ZxOH2') # your url shortner api
     TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://t.me/How_To_Open_Linkl")
 
 
